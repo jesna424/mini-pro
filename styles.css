@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Phantom Sans';
+    background-color: rgb(76, 74, 80);
+    text-align: center;
+    
+}
+
+img{
+    width: 28%;
+    
+}
+
+.options{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+.option{
+    
+    position: relative;
+    width: 30%;
+    padding: 5% 0 5% 0;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    flex: none;
+    background-color: rgb(36, 34, 34);
+    text-align: center;
+    
+}
+
+.piano{
+    order: 1;
+    
+}
+
+.alarm{
+    order: 2;
+}
+
+.stopwatch{
+    order: 3;
+}
+
+.head{
+    color: rgb(212, 138, 41);
+    height: 50%;
+    background-color: rgb(36, 34, 34);
+    padding: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .option{
+        position: relative;
+        width: 95%;
+        padding: 20% 0 20% 0;
+        margin-top: 5%;
+        margin-left: 2.5%;
+        flex: none;
+        background-color: black;
+        text-align: center;
+    } 
+}
